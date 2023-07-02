@@ -27,7 +27,7 @@ services:
   nginx:
     image: nginx:alpine
     environment:
-      NGINX_HOST: localhost
+      NGINX_HOST: huisserver-1
     volumes:
       - ./nginx/conf:/etc/nginx/templates
       - ./nginx/certs:/etc/nginx/cert/
